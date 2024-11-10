@@ -3,12 +3,12 @@
 #include "question.h"
 #include "answer.h"
 using namespace std;
-string user_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\users.txt)";
-string question_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\questions.txt)";
-string answer_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\answers.txt)";
-string user_id_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\user_id.txt)";
-string question_id_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\question_id.txt)";
-string answer_id_path = R"(C:\Users\VI$ION\Desktop\Projects\oop\AskMe project\answer_id.txt)";
+string user_path = R"(./users.txt)";
+string question_path = R"(./questions.txt)";
+string answer_path = R"(./answers.txt)";
+string user_id_path = R"(./user_id.txt)";
+string question_id_path = R"(./question_id.txt)";
+string answer_id_path = R"(./answer_id.txt)";
 vector<User> users;
 vector<question> questions;
 vector<answer> answers;
